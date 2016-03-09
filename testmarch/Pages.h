@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Pages.h
 //  testmarch
 //
 //  Created by Erik Leb on 2016-03-09.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController 
-
-- (IBAction)button:(id)sender;
+@interface Pages : UIPageViewController  <UIPageViewControllerDelegate, UIPageViewControllerDataSource>
 
 @end
-

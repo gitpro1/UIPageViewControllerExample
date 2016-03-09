@@ -15,6 +15,10 @@
 		FBA59D561C906C140078CBBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA59D541C906C140078CBBB /* LaunchScreen.storyboard */; };
 		FBA59D611C906C140078CBBB /* testmarchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA59D601C906C140078CBBB /* testmarchTests.m */; };
 		FBA59D6C1C906C140078CBBB /* testmarchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA59D6B1C906C140078CBBB /* testmarchUITests.m */; };
+		FBA59D7B1C906DCC0078CBBB /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA59D7A1C906DCC0078CBBB /* ViewController2.m */; };
+		FBA59D7E1C906DD60078CBBB /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA59D7D1C906DD60078CBBB /* ViewController3.m */; };
+		FBA59D811C906DE10078CBBB /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA59D801C906DE10078CBBB /* ViewController1.m */; };
+		FBA59D871C9077BE0078CBBB /* Pages.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA59D861C9077BE0078CBBB /* Pages.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		FBA59D671C906C140078CBBB /* testmarchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testmarchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA59D6B1C906C140078CBBB /* testmarchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testmarchUITests.m; sourceTree = "<group>"; };
 		FBA59D6D1C906C140078CBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBA59D791C906DCC0078CBBB /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		FBA59D7A1C906DCC0078CBBB /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		FBA59D7C1C906DD60078CBBB /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		FBA59D7D1C906DD60078CBBB /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		FBA59D7F1C906DE10078CBBB /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		FBA59D801C906DE10078CBBB /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		FBA59D851C9077BE0078CBBB /* Pages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pages.h; sourceTree = "<group>"; };
+		FBA59D861C9077BE0078CBBB /* Pages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pages.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				FBA59D4A1C906C140078CBBB /* AppDelegate.m */,
 				FBA59D4C1C906C140078CBBB /* ViewController.h */,
 				FBA59D4D1C906C140078CBBB /* ViewController.m */,
+				FBA59D851C9077BE0078CBBB /* Pages.h */,
+				FBA59D861C9077BE0078CBBB /* Pages.m */,
+				FBA59D7F1C906DE10078CBBB /* ViewController1.h */,
+				FBA59D801C906DE10078CBBB /* ViewController1.m */,
+				FBA59D791C906DCC0078CBBB /* ViewController2.h */,
+				FBA59D7A1C906DCC0078CBBB /* ViewController2.m */,
+				FBA59D7C1C906DD60078CBBB /* ViewController3.h */,
+				FBA59D7D1C906DD60078CBBB /* ViewController3.m */,
 				FBA59D4F1C906C140078CBBB /* Main.storyboard */,
 				FBA59D521C906C140078CBBB /* Assets.xcassets */,
 				FBA59D541C906C140078CBBB /* LaunchScreen.storyboard */,
@@ -271,8 +291,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBA59D4E1C906C140078CBBB /* ViewController.m in Sources */,
+				FBA59D7B1C906DCC0078CBBB /* ViewController2.m in Sources */,
+				FBA59D811C906DE10078CBBB /* ViewController1.m in Sources */,
+				FBA59D871C9077BE0078CBBB /* Pages.m in Sources */,
 				FBA59D4B1C906C140078CBBB /* AppDelegate.m in Sources */,
 				FBA59D481C906C140078CBBB /* main.m in Sources */,
+				FBA59D7E1C906DD60078CBBB /* ViewController3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
